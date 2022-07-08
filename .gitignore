@@ -1,0 +1,9 @@
+# IdeaIDE
+.idea
+
+# VS Code
+.vscode
+
+main
+.DS_Store
+*/**/.DS_Store

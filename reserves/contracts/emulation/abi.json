@@ -1,0 +1,33 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "pools",
+        "type": "address[]"
+      }
+    ],
+    "name": "start",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "Reserve0",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "Reserve1",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Emulation.Reserves[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
